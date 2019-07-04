@@ -7,6 +7,7 @@ public class EnemyPlant : MonoBehaviour {
     public Transform target;
     public Animator attack;
     public SpriteRenderer SpRe;
+    public HpBar hpBar;
     
     
 
@@ -38,7 +39,10 @@ public class EnemyPlant : MonoBehaviour {
         {
             attack.SetBool("isCollide", false);
         }
+    }
 
-        
+    public void HpReduction()
+    {
+        hpBar.HpSubstractionWhenK();
     }
 }

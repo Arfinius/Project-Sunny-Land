@@ -67,6 +67,7 @@
     <Compile Include="Assets\DAX\Shields Collection\Demo V1\Scripts\DAX_MainCamera.cs" />
     <Compile Include="Assets\DAX\Shields Collection\Scripts\DAX_Rotator.cs" />
     <Compile Include="Assets\DAX\Shields Collection\Scripts\DAX_Rotator_XYZ.cs" />
+    <Compile Include="Assets\opposScript.cs" />
     <Compile Include="Assets\Scripts\AplicationSet.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\ChangeScenes.cs" />
@@ -115,10 +116,12 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\POLYGON_Renderbox\Shaders\SkyGradient.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\POLYGON_Renderbox\Shaders\UnlitVertexColour_Alpha.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">

@@ -8,7 +8,7 @@ public class HpBar : MonoBehaviour
 
     private RawImage barRawImage;
 
-    public ShieldControll SH;
+    public LowShield SH;
 
     public Image imageHp;
 
@@ -43,7 +43,7 @@ public class HpBar : MonoBehaviour
         }
         else
         {
-            hp.TrySpendHp(5);
+            hp.TrySpendHp(8);
         }
     }
 
@@ -74,10 +74,6 @@ public class Hp
         if (hpAmount > Hp_Max)
         {
             hpAmount = Hp_Max;
-        }
-        else
-        {
-            hpAmount += hpRegenAmount * Time.deltaTime;
         }
     }
 
